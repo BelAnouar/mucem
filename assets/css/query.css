@@ -1,0 +1,68 @@
+ 
+  /* 1344px  */
+ @media (max-width:84em){
+   .hero{
+    max-width: 120rem;
+   
+   }
+   .heading-primary {
+    font-size: 2.13rem;
+   
+  }
+  .gallery{
+    grid-template-columns: repeat(2,1fr);
+  }
+}  
+
+/* 1200px tablets */
+@media (max-width:75em){
+   html{
+    font-size: 62,1%;
+   }
+   .header{
+    padding: 0 3.5rem;
+   }
+   .heading-primary {
+    font-size: 1.9rem;
+   
+  }
+   .heading-secondary {
+    font-size: 1.9rem;
+   
+  }
+   .heading-tertiary {
+    font-size: 1.9rem;
+   
+  }
+  .nav-list{
+    gap: 4.2rem;
+  }
+  .testimonials-container {
+    padding: 3.6rem  3.4rem;
+  }
+}
+
+
+
+
+/* tablts 944 */
+
+@media (max-width:59em){
+    html{
+        font-size: 62%;
+    }
+    .hero{
+        grid-template-columns: 1fr;
+    }
+      .hero-content,.hero-img-box {
+        text-align: center;
+      }
+    .hero-img {
+        width: 40%;
+        height: 60%;
+    }
+    
+    .cards{
+        grid-template-columns: repeat(3,1fr);
+    }
+}

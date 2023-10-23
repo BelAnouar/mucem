@@ -1,30 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="assets/css/general.css">
-</head>
-<body>
-    
+    <link rel="stylesheet" href="assets/css/general.css" />
+    <link rel="stylesheet" href="assets/css/atellier.css" />
+  </head>
+  <body>
     <header class="header">
-        <a href="/index.html">
-          <img src="./assets/images/logo.png" class="logo" alt="logo_mucem" />
-        </a>
-        <nav class="navbar-nav">
-          <ul class="nav-list">
-            <li class="nav-item">
-              <a class="nav-link" href="./index.html">Accueil</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./gallery.html">Gallery</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./atelier.html">Atelier</a>
-            </li>
-          </ul>
-        </nav>
-      </header>
-</body>
+      <a href="/index.html">
+        <img src="./assets/images/logo.png" class="logo" alt="logo_mucem" />
+      </a>
+      <nav class="navbar-nav">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">Accueil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./atelier.html">Atelier</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section class="section-hero atelier-section">
+      <div class="hero grid grid--cols-2 grid--center">
+        <div class="hero-content">
+          <h1 class="heading-primary">Ateliers of Portery in Safi</h1>
+          <p class="hero-description">
+            Unearthing the Artistry of Safi's Pottery: Mallems Gallery Workshop
+          </p>
+
+          <div class="customers">
+            <div class="customers-imgs">
+              <img
+                src="./assets/images/customers/customer-1.jpg"
+                alt="customer photo"
+              />
+              <img
+                src="./assets/images/customers/customer-2.jpeg"
+                alt="customer photo"
+              />
+              <img
+                src="./assets/images/customers/customer-3.jpg"
+                alt="customer photo"
+              />
+              <img
+                src="./assets/images/customers/customer-4.jpg"
+                alt="customer photo"
+              />
+            </div>
+            <p class="customers-text">our happy custumer</p>
+          </div>
+        </div>
+        <div class="hero-img-box">
+          <img src="./assets/images/attelier.jpg" alt="" class="hero-img" />
+        </div>
+      </div>
+    </section>
+    <main>
+      <section class="section-hours">
+        <h2 class="heading-secondary">Opening Hours</h2>
+        <div class="hours">
+          <div class="hour-card">
+            <h3>Mon-Fri</h3>
+            <p>08:00-23:00</p>
+          </div>
+          <div class="hour-card">
+            <h3>SUN-SAT</h3>
+            <p>08:00-19:00</p>
+          </div>
+          <div class="hour-card">
+            <h3>SUMMER</h3>
+            <p>24/7J</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-insc">
+        <h2 class="heading-secondary">S’inscrire</h2>
+        <div class="container">
+          <div class="insc">
+            <div class="form-box">
+              <form action="#">
+                <div>
+                  <label for="cin">CIN</label>
+                  <input type="text" id="cin" placeholder="Cin" />
+                </div>
+                <div>
+                  <label for="full_name">FULL NAME</label>
+                  <input
+                    type="text"
+                    id="full_name"
+                    placeholder="your full name"
+                  />
+                </div>
+                <div>
+                  <label for="e-mail">E-MAIL</label>
+                  <input type="text" id="e-mail" placeholder="e-mail" />
+                </div>
+                <div>
+                  <label for="phone">NUMBER PHONE</label>
+                  <input type="text" id="phone" placeholder="Number phone" />
+                </div>
+                <button class="btn--send" type="submit">Send</button>
+              </form>
+            </div>
+            <div class="img-box" role="img"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>

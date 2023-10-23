@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap");
+
+.heading-primary {
+  font-size: 3.8rem;
+  color: #fff;
+  font-weight: 700;
+  line-height: 1.2;
+
+  margin-bottom: 0.6rem;
+}
+
+.hero-description {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #fff;
+  margin-bottom: 1.8rem;
+}
+
+.atelier-section {
+  height: 85vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../images/hero-attelier.jpg");
+  background-size: 100% 100%;
+
+  background-repeat: no-repeat;
+}
+.hero {
+  max-width: 70rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  gap: 13rem;
+}
+.hero-img {
+  width: 86%;
+  height: 66vh;
+  object-fit: cover;
+  border-radius: 1.2rem;
+}
+
+.customers {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  margin-top: 2.4rem;
+}
+
+.customers-imgs {
+  display: flex;
+}
+.customers-imgs img {
+  height: 2.8rem;
+  width: 3.1rem;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: -0.7rem;
+}
+.customers-imgs img:last-child {
+  margin: 0;
+}
+
+.customers-text {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+/* Opennning hours  */
+
+.section-hours {
+  padding: 3.4rem 3rem;
+}
+.hours {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap-reverse;
+  align-items: center;
+}
+.hour-card {
+  width: 19%;
+  font-family: "Irish Grover", sans-serif;
+  font-size: 1.3rem;
+  font-weight: 400;
+  background-color: #323232;
+  color: #fff;
+  text-align: center;
+  padding: 3.5rem 0;
+}
+.hour-card h3 {
+  margin-bottom: 1.9rem;
+}
+
+/* inscription section  */
+.section-insc {
+  padding: 3.4rem 3rem;
+}
+
+.insc {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  background-color: #bbaf92;
+
+  height: 22rem;
+  width: 60rem;
+  border-radius: 1.2rem;
+  overflow: hidden;
+}
+
+.form-box {
+  padding: 3.2rem 4.1rem;
+}
+.form-box form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 6.2rem;
+  row-gap: 1.4rem;
+}
+.form-box form label {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #000;
+  margin-bottom: 0.7rem;
+}
+.form-box form input {
+  display: block;
+  width: 100%;
+  padding: 0.7rem;
+  font-size: 0.9rem;
+  border: none;
+  border-radius: 0.6rem;
+  font-family: inherit;
+  text-transform: capitalize;
+}
+
+.img-box {
+  background-image: url("../images/insc.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.btn--send {
+  background-color: #ccb4aa;
+  text-transform: uppercase;
+  border: none;
+  padding: 0.9rem 0;
+  cursor: pointer;
+}
