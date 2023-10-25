@@ -24,6 +24,9 @@ const headerObserver = new IntersectionObserver(obsCallback, {
 });
 
 headerObserver.observe(sectionHero);
+navBotton.addEventListener("click",()=>{
+	header.classList.toggle("nav-open")
+})
 
 btnScrollTo.addEventListener("click", (e) => {
   e.preventDefault();
@@ -39,9 +42,6 @@ btnScrollTo.addEventListener("click", (e) => {
 });
 
 
-navBotton.addEventListener("click",()=>{
-	header.classList.toggle("nav-open")
-})
 
 
 const accordion = document.querySelectorAll(".item");

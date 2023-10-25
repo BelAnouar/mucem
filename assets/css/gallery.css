@@ -72,3 +72,20 @@
   transition: all 0.4s;
 }
 
+
+/* Video  */
+
+.section-video {
+  background-color: #ece7da;
+  padding: 3.4rem 3rem;
+  
+}
+
+.video-box{text-align: center;
+  
+}
+.video{
+  width: 50%;
+  height: 60vh;
+}
+

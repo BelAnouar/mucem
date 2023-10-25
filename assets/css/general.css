@@ -39,6 +39,7 @@ body {
   display: flex;
   align-items: center;
   gap: 5.2rem;
+
 }
 .nav-link:link,
 .nav-link:visited {
@@ -47,6 +48,7 @@ body {
   font-weight: 500;
   font-size: 1.2rem;
   color: #333;
+  z-index: 2;
 }
 
 .btn--mobile-nav {
