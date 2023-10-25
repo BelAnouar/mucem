@@ -1,4 +1,5 @@
 # mucem
+A website designed to showcase the newly established Pottery Museum, named "MUCEM."
 # presentation:
 https://www.canva.com/design/DAFyTbb-OSo/CA6uyDUP-FaqtbDWbWHYLA/edit?utm_content=DAFyTbb-OSo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 # figma project:
