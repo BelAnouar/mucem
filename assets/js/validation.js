@@ -43,14 +43,20 @@ function validateFullName(input) {
   }
 
   const btnSend = document.querySelector(".btn--send");
-  btnSend.addEventListener("click", function (event) {
+  var notyf = new Notyf({duration: 3000,
+    position: {
+      x: 'center',
+      y: 'top',
+    }});
 
+  btnSend.addEventListener("click", function (event) {
+event.preventDefault();
     const cin = document.getElementById("cin").value;
     const email = document.getElementById("e-mail").value;
     const phone = document.getElementById("phone").value;
 
     if (cin === "" || email === "" || phone === "") {
-      alert("Tous les champs doivent être remplis.");
-      event.preventDefault();
+        notyf.error("Tous les champs doivent être remplis.");
+      
     }
   });
