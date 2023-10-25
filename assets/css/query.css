@@ -126,6 +126,11 @@
   .nav-open .icon-nav[name="menu-outline"] {
     display: none;
   }
+  .section--image-containe .gallery--col-img {
+    grid-template-columns: 1fr;
+
+    
+  }
 }
 
 @media (max-width: 44em) {
@@ -135,7 +140,9 @@
   .accueil-title {
     height: 70vh;
   }
-
+ .section-hero {
+    padding: 1.6rem 0 6rem;
+ }
   .section-exhibition {
     text-align: center;
   }
@@ -188,6 +195,7 @@
   .gallery-section {
     padding-top: 6.3rem;
     text-align: center;
+    
   }
   .atelier-section .heading-primary,
   .gallery-section .heading-primary {
@@ -197,8 +205,8 @@
     font-size: 3.4rem;
   }
   .atelier-section .hero-img ,.gallery-section .hero-img {
-    width: 60%;
-    height: 40vh;
+    width: 70%;
+    height: 30vh;
   }
   .atelier-section .hero-description,
   .gallery-section .hero-description {
