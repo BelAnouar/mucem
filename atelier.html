@@ -6,9 +6,11 @@
     <title>Document</title>
     <link rel="stylesheet" href="assets/css/general.css" />
     <link rel="stylesheet" href="assets/css/atellier.css" />
+    <link rel="stylesheet" href="assets/css/query.css">
+    <script src="https://kit.fontawesome.com/1765c7cc5b.js" crossorigin="anonymous"></script>
   </head>
   <body>
-    <header class="header">
+    <header class="header ">
       <a href="/index.html">
         <img src="./assets/images/logo.png" class="logo" alt="logo_mucem" />
       </a>
@@ -25,6 +27,10 @@
           </li>
         </ul>
       </nav>
+      <button class="btn--mobile-nav">
+        <ion-icon class="icon-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-nav" name="close-outline"></ion-icon>
+      </button>
     </header>
     <section class="section-hero atelier-section">
       <div class="hero grid grid--cols-2 grid--center">
@@ -114,5 +120,49 @@
         </div>
       </section>
     </main>
+
+
+    <footer class="footer">
+      <div class="container grid grid--cols-3">
+        <div>
+          <a href="index.html"
+            ><img class="logo" src="./assets/images/logo.png" alt="logo"
+          /></a>
+        </div>
+        <div class="menu-col">
+          <p class="footer-heading">menu</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="index.html">Accueill</a></li>
+
+            <li><a class="footer-link" href="./gallery.html">gallery</a></li>
+
+            <li><a class="footer-link" href="atelier.html">atelier</a></li>
+          </ul>
+        </div>
+        <nav class="contact-col">
+          <p class="footer-heading">Retrouvez-nous</p>
+          <div class="icons">
+            <ul class="icon-link"><li><a class="footer-link" href="#"> <ion-icon name="mail-outline"></ion-icon></a></li>
+           <li> <a class="footer-link" href="#"> <i class="fa-brands fa-facebook-f"></i></a></li>
+           <li> <a class="footer-link" href="#">  
+            <i class="fa-brands fa-x-twitter"></i></a></li>
+          </ul>
+          </div>
+        </nav>
+      </div>
+      <h4 class="copyright">© 2023 COPY RIGHT</h4>
+    </footer>
+
+
+
+    <script src="./assets/js/index.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
   </body>
 </html>

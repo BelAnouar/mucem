@@ -38,29 +38,32 @@
 }
 
 /* OUR gallery  */
+.section--image-containe{
+  padding: 3.4rem 3rem;
+}
 
-.gallery {
+
+.section--image-containe .gallery {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   row-gap: 1.6rem;
   column-gap: 0.2rem;
   padding: 2.6rem;
 }
-.gallery-img {
+.section--image-containe .gallery-img {
   overflow: hidden;
 }
 
-.gallery .gallery-img:first-child {
+.gallery--col-img  {
   grid-row: 1 / span 3;
-  height: 70vh;
-  object-fit: cover;
 }
-.gallery .gallery-img:first-child img{
-   width: 100%;
-  height: 98vh;
+ .gallery--col-img img{
+  display: block;
+  object-fit: cover;
+   height: 86vh;
  
 }
-.gallery-img img {
+.section--image-containe .gallery-img img {
   display: block;
   object-fit: cover;
   width: 80%;

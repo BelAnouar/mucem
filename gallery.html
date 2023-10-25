@@ -1,77 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="assets/css/gallery.css">
-    <link rel="stylesheet" href="assets/css/general.css">
-</head>
-<body>
+    <link rel="stylesheet" href="assets/css/gallery.css" />
+    <link rel="stylesheet" href="assets/css/general.css" />
+    <link rel="stylesheet" href="assets/css/query.css" />
+    <script
+      src="https://kit.fontawesome.com/1765c7cc5b.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
     <header class="header">
-        <a href="/index.html">
-          <img src="./assets/images/logo.png" class="logo" alt="logo_mucem" />
-        </a>
-        <nav class="navbar-nav">
-          <ul class="nav-list">
-            <li class="nav-item">
-              <a class="nav-link" href="./index.html">Accueil</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./gallery.html">Gallery</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./atelier.html">Atelier</a>
-            </li>
-          </ul>
-        </nav>
-      </header>
-<main>
+      <a href="/index.html">
+        <img src="./assets/images/logo.png" class="logo" alt="logo_mucem" />
+      </a>
+      <nav class="navbar-nav">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">Accueil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./atelier.html">Atelier</a>
+          </li>
+        </ul>
+      </nav>
+      <button class="btn--mobile-nav">
+        <ion-icon class="icon-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+    <main>
       <section class="section-hero gallery-section">
-         <div class="hero grid grid--cols-2 grid--center">
+        <div class="hero grid grid--cols-2 grid--center">
           <div class="hero-content">
-            <h1 class="heading-primary">
-              Gallery of Portery in Safi
-            </h1>
+            <h1 class="heading-primary">Gallery of Portery in Safi</h1>
             <p class="hero-description">
-              Exploring the Beautiful artisanat of Safi's Portery , mallems Gallery
+              Exploring the Beautiful artisanat of Safi's Portery , mallems
+              Gallery
             </p>
           </div>
           <div class="hero-img-box">
-            <img
-              src="./assets/images/gallery.jpg"
-              alt=""
-              class="hero-img"
-            />
+            <img src="./assets/images/gallery.jpg" alt="" class="hero-img" />
           </div>
-         </div>
+        </div>
       </section>
 
       <section class="section--image-containe">
-            <h2 class="heading-secondary">OUR GALLERY</h2>
-            <div class="gallery">
-              <figure class="gallery-img">
-                <img src="./assets/images/gallery/gallery-14.jfif" alt="gallery-1" />
-              </figure>
-              <figure class="gallery-img">
-                <img src="./assets/images/gallery/gallery-15.jfif" alt="gallery-2" />
-              </figure>
-              <figure class="gallery-img">
-                <img src="./assets/images/gallery/gallery-19.jpg" alt="gallery-3" />
-              </figure>
-              <figure class="gallery-img">
-                <img src="./assets/images/gallery/gallery-17.jpg" alt="gallery-4" />
-              </figure>
-              <figure class="gallery-img">
-                <img src="./assets/images/gallery/gallery-16.jpg" alt="gallery-5" />
-              </figure>
-              <figure class="gallery-img">
-                <img src="./assets/images/gallery/gallery-13.jpg" alt="gallery-6" />
-              </figure>
-              <figure class="gallery-img">
-                <img src="./assets/images/gallery/gallery-18.png" alt="gallery-7" />
-              </figure>
-            </div>
+        <h2 class="heading-secondary">OUR GALLERY</h2>
+        
+        <div class="gallery"><figure class="gallery--col-img ">
+          <img src="./assets/images/gallery/gallery-14.jfif" alt="gallery-1" />
+        </figure>
+          <figure class="gallery-img">
+            <img
+              src="./assets/images/gallery/gallery-15.jfif"
+              alt="gallery-2"
+            />
+          </figure>
+          <figure class="gallery-img">
+            <img src="./assets/images/gallery/gallery-19.jpg" alt="gallery-3" />
+          </figure>
+          <figure class="gallery-img">
+            <img src="./assets/images/gallery/gallery-17.jpg" alt="gallery-4" />
+          </figure>
+          <figure class="gallery-img">
+            <img src="./assets/images/gallery/gallery-16.jpg" alt="gallery-5" />
+          </figure>
+          <figure class="gallery-img">
+            <img src="./assets/images/gallery/gallery-13.jpg" alt="gallery-6" />
+          </figure>
+          <figure class="gallery-img">
+            <img src="./assets/images/gallery/gallery-18.png" alt="gallery-7" />
+          </figure>
+        </div>
       </section>
-</main></body>
+    </main>
+
+    <footer class="footer">
+      <div class="container grid grid--cols-3">
+        <div>
+          <a href="index.html"
+            ><img class="logo" src="./assets/images/logo.png" alt="logo"
+          /></a>
+        </div>
+        <div class="menu-col">
+          <p class="footer-heading">menu</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="index.html">Accueill</a></li>
+
+            <li><a class="footer-link" href="./gallery.html">gallery</a></li>
+
+            <li><a class="footer-link" href="atelier.html">atelier</a></li>
+          </ul>
+        </div>
+        <nav class="contact-col">
+          <p class="footer-heading">Retrouvez-nous</p>
+          <div class="icons">
+            <ul class="icon-link">
+              <li>
+                <a class="footer-link" href="#">
+                  <ion-icon name="mail-outline"></ion-icon
+                ></a>
+              </li>
+              <li>
+                <a class="footer-link" href="#">
+                  <i class="fa-brands fa-facebook-f"></i
+                ></a>
+              </li>
+              <li>
+                <a class="footer-link" href="#">
+                  <i class="fa-brands fa-x-twitter"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <h4 class="copyright">© 2023 COPY RIGHT</h4>
+    </footer>
+    <script src="./assets/js/index.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
 </html>

@@ -50,6 +50,22 @@
 .section-exhibition {
   padding: 3.4rem 3rem;
 }
+.progress-description{
+  font-size: 0.9rem;
+  line-height: 1.2;
+}
+
+
+.progress-img-box img {
+  width: 80%;
+  height: 80%;
+  object-fit: cover;
+  border-radius: 1.2rem;
+}
+.progress-description{
+  font-size: 1.2rem;
+  line-height: 1.3;
+}
 
 /* testimanial section  */
 
