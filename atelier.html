@@ -91,29 +91,34 @@
         <div class="container">
           <div class="insc">
             <div class="form-box">
-              <form action="#">
+              <form action="#" >
                 <div>
                   <label for="cin">CIN</label>
-                  <input type="text" id="cin" placeholder="Cin" />
+                  <input type="text" id="cin" placeholder="Cin" onchange="validateCIN(this)" />
+                  <div id="cinError" style="color: red;"></div>
                 </div>
                 <div>
                   <label for="full_name">FULL NAME</label>
                   <input
                     type="text"
-                    id="full_name"
-                    placeholder="your full name"
+                    id="fullName"
+                    placeholder="your full name" onchange=" validateFullName(this)"
                   />
+                  <div id="nameError" style="color: red;"></div>
                 </div>
                 <div>
                   <label for="e-mail">E-MAIL</label>
-                  <input type="text" id="e-mail" placeholder="e-mail" />
+                  <input type="email" id="e-mail" placeholder="e-mail" onchange="validateEmail(this)" />
+                  <div id="emailError" style="color: red;"></div>
                 </div>
                 <div>
                   <label for="phone">NUMBER PHONE</label>
-                  <input type="text" id="phone" placeholder="Number phone" />
+                  <input type="text" id="phone" placeholder="Number phone" onchange="validatePhone(this)" />
+                  <div id="phoneError" style="color: red;"></div>
                 </div>
                 <button class="btn--send" type="submit">Send</button>
               </form>
+              
             </div>
             <div class="img-box" role="img"></div>
           </div>
@@ -155,7 +160,7 @@
 
 
 
-    <script src="./assets/js/index.js"></script>
+    <script src="./assets/js/validation.js"></script>
     <script
       type="module"
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
