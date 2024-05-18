@@ -58,5 +58,7 @@ event.preventDefault();
     if (cin === "" || email === "" || phone === "") {
         notyf.error("Tous les champs doivent être remplis.");
       
+    }else{
+        notyf.success("Send...");
     }
   });
